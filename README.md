@@ -6,9 +6,9 @@ A comprehensive guideline to setup phpcs for a WordPress theme or plugin.
 
 You need to install the following softwares on your machine.
 
-- composer.
-- node.
-- npm.
+- [composer](https://getcomposer.org/)
+- [npm](https://www.npmjs.com/)
+- [node](https://nodejs.org/en)
 
 ## Steps
 
@@ -70,3 +70,13 @@ composer update
 npm run lint:php
 npm run lint:php:fix
 ```
+
+**Output:**
+
+![PHPCS linting report](/previews/phpcs/phpcs_log.jpg)
+
+### Acknowledgement
+
+- [bluewindlab.net](https://bluewindlab.net)
+- [composer](https://getcomposer.org/)
+- [npm](https://www.npmjs.com/)
