@@ -75,6 +75,27 @@ npm run lint:php:fix
 
 ![PHPCS linting report](/previews/phpcs/phpcs_log.jpg)
 
+## Install VSCode PHP Sniffer extension
+
+1. Search and install visual studio code PHP Sniffer & Beautifer extension.
+
+![install_php_sniffer_and_beautifer_vscode_extension](/previews/phpcs/install_php_sniffer_and_beautifer_vscode_extension.jpg)
+
+2. Navigate to settings of the visual studio code and search for `.json` file. Click on the `Edit in settings.json`link and add following lines of code.
+
+   ![create workspace based settings.json file](/previews/phpcs/edit_settings.json_file.jpg)
+
+```json
+{
+  "phpSniffer.autoDetect": true,
+  "[php]": {
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab"
+  }
+}
+```
+
+That's it.
+
 ### Acknowledgement
 
 - [bluewindlab.net](https://bluewindlab.net)
