@@ -75,6 +75,17 @@ npm run lint:php:fix
 
 ![PHPCS linting report](/previews/phpcs/phpcs_log.jpg)
 
+## Ignoring the issue
+
+Sometimes we need to ignore some of the error highlights.
+Just add the `// phpcs:ignore` text after the line and issue will be fixed.
+
+```php
+function init_bwl_advanced_faq_manager() { // phpcs:ignore
+    new BWL_Advanced_Faq_Manager();
+}
+```
+
 ## Install VSCode PHP Sniffer extension
 
 1. Search and install visual studio code PHP Sniffer & Beautifer extension.
