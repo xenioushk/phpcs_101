@@ -1,6 +1,6 @@
 # PHPCS Setup
 
-A comprehensive guideline to setup phpcs for a WordPress theme or plugin.
+This guide provides a comprehensive guideline for setting up PHPCS for a WordPress theme or plugin. You will also get instructions for setting up the PHPCS Visual Studio Code extension setup.
 
 ## Requirements
 
