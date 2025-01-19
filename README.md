@@ -113,6 +113,18 @@ function init_bwl_advanced_faq_manager() { // phpcs:ignore
 }
 ```
 
+3. Test a particular file.
+
+```bash
+./vendor/bin/phpcs --standard=WordPress bwl-services-api.php
+```
+
+4. Fix a particular file.
+
+```bash
+./vendor/bin/phpcbf bwl-services-api.php
+```
+
 That's it.
 
 ### Acknowledgement
