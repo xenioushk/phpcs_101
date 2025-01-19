@@ -99,9 +99,17 @@ function init_bwl_advanced_faq_manager() { // phpcs:ignore
 ```json
 {
   "phpSniffer.autoDetect": true,
+  "phpSniffer.run": "onSave", // Runs PHPCS on save
   "[php]": {
-    "editor.defaultFormatter": "valeryanm.vscode-phpsab"
-  }
+    "editor.defaultFormatter": "valeryanm.vscode-phpsab",
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "files.trimTrailingWhitespace": false,
+  "editor.renderFinalNewline": "on",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": false,
+  "files.eol": "\n" // Enforces Unix-style line endings
 }
 ```
 
