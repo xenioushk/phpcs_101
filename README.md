@@ -127,6 +127,23 @@ function init_bwl_advanced_faq_manager() { // phpcs:ignore
 
 That's it.
 
+## PHP Function comment parameters.
+
+In PHPDoc comments, there are several fields you can use to provide additional information about the function. Here are some commonly used fields:
+
+```php
+@param: Describes the parameters the function accepts.
+@return: Describes the return value of the function.
+@throws: Describes any exceptions the function might throw.
+@deprecated: Indicates that the function is deprecated and should not be used.
+@see: Provides a reference to another function or resource.
+@link: Provides a URL to a related resource.
+@author: Indicates the author of the function.
+@version: Indicates the version of the function.
+@since: Indicates the version since the function is available.
+@example: Provides an example of how to use the function.
+```
+
 ### Acknowledgement
 
 - [bluewindlab.net](https://bluewindlab.net)
